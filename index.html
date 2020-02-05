@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="./node_modules/ckeditor4/contents.css" />
+    <script src="./node_modules//ckeditor4/ckeditor.js"></script>
+    <title>Document</title>
+  </head>
+  <body>
+    <form>
+      <textarea name="editor1" id="editor1" rows="10" cols="80">
+                This is my textarea to be replaced with CKEditor.
+            </textarea
+      >
+      <script>
+        // Replace the <textarea id="editor1"> with a CKEditor
+        // instance, using default configuration.
+        CKEDITOR.replace("editor1");
+      </script>
+    </form>
+  </body>
+</html>
